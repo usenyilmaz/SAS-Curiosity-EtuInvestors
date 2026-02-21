@@ -1,4 +1,4 @@
-# SAS-Curiosity
+# SAS-Curiosity EtuInvestors
 For sharing SAS ODA codes We've written for SAS Curiosity Cup 2026.  
 Project name: Measuring the Impact of FED Funds, M2 Supply, and DXY on Digital Asset Pricing  
 Team -> EtuInvestors  
