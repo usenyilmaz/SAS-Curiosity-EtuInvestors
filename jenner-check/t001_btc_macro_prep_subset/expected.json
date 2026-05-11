@@ -1,0 +1,12 @@
+{
+  "_captured_at": "2026-05-11T15:50:00Z",
+  "_captured_run_id": "local-1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Imported 94 rows from ./input/coin_Bitcoin.csv.",
+    "NOTE: PROC PRINT completed: 3 observations printed, 8 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

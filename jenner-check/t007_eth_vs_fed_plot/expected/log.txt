@@ -1,0 +1,20 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.eth_fed
+
+NOTE: Reading from fileref ./input/eth_ready.csv (./input/eth_ready.csv)
+
+NOTE: Read 49 rows from ./input/eth_ready.csv.
+NOTE: Wrote work.eth_fed (49 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Ethereum (ETH) Price and FED Funds Rate Comparison.
+NOTE: PROC SGPLOT data=work.eth_fed
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC PRINT data=work.eth_fed
+
+NOTE: PROC PRINT completed: 10 observations printed, 3 variables

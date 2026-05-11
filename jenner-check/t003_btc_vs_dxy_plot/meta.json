@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_btc_vs_dxy_plot",
+  "source_file": "CODE-ANALYSIS-GRAPHS/CryptoCoins/Bitcoin (BTC)/BTC-DollarIndex.sas",
+  "source_blob_sha": "d845b8968bc877207da982a02381fbfde6416ad4",
+  "source_commit": "52b2937b6fa4fb74bf4b60f90fd39febccb4c721",
+  "tier": "real_data",
+  "notes": "Adaptation of the BTC-vs-Dollar-Index SGPLOT script. Only edit: the hardcoded /home/u64447590/BTC/btc_ready.csv path rewritten to ./input/btc_ready.csv. Input is the first 49 rows of the upstream btc_ready.csv (European format: semicolon-delimited, comma decimals)."
+}

@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_btc_vs_m2_plot",
+  "source_file": "CODE-ANALYSIS-GRAPHS/CryptoCoins/Bitcoin (BTC)/BTC-M2SL.sas",
+  "source_blob_sha": "221e577e05ff40ddc357206a8cf461a68023412a",
+  "source_commit": "52b2937b6fa4fb74bf4b60f90fd39febccb4c721",
+  "tier": "real_data",
+  "notes": "Adaptation of the BTC-vs-M2 SGPLOT script. Only edit: the hardcoded /home/u64447590/BTC/btc_ready.csv path rewritten to ./input/btc_ready.csv. Input is the first 49 rows of the upstream btc_ready.csv (European format: semicolon-delimited, comma decimals)."
+}

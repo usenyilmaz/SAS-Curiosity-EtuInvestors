@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_btc_macro_prep_subset",
+  "source_file": "DATASETS/btc_macro_prep.sas",
+  "source_blob_sha": "40d4b9700258ecd88b0db6a569febe282b64bed1",
+  "source_commit": "52b2937b6fa4fb74bf4b60f90fd39febccb4c721",
+  "tier": "real_data",
+  "notes": "Adaptation of DATASETS/btc_macro_prep.sas. The %import_macro macro and merge pipeline are preserved verbatim; only the hardcoded /home/u64449686/sasuser.v94/ paths were rewritten to ./input/. Input data: first 19 rows of the upstream FEDFUNDS.csv/M2SLCHANGE.csv/DOLLARINDEX.csv and first 94 rows of coin_Bitcoin.csv, taken from the repo's DATASETS/ tree. The final PROC PRINT prints the three first-of-month BTC rows merged with the corresponding macro values."
+}

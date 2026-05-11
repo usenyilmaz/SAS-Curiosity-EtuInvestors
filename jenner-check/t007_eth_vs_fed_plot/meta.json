@@ -1,0 +1,8 @@
+{
+  "bundle": "t007_eth_vs_fed_plot",
+  "source_file": "CODE-ANALYSIS-GRAPHS/CryptoCoins/Ethereum (ETH)/ETH-FEDFUNDS.sas",
+  "source_blob_sha": "c97016ff432d5ade1a6a20a1f128d172a3307161",
+  "source_commit": "52b2937b6fa4fb74bf4b60f90fd39febccb4c721",
+  "tier": "real_data",
+  "notes": "Adaptation of the ETH-vs-FED-Funds SGPLOT script. Only edit: the hardcoded /home/u64447590/ETH/eth_ready.csv path rewritten to ./input/eth_ready.csv. Input is the first 49 rows of the upstream eth_ready.csv. Note the upstream eth_ready.csv has DOLLAR_INDEX as the 8th column whereas btc_ready.csv has DOLLARINDEX — the per-coin scripts both use a positional INPUT so they handle the difference."
+}

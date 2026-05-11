@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-05-11T16:00:00Z",
+  "_captured_run_id": "local-1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 49 rows from ./input/btc_ready.csv.",
+    "NOTE: Wrote work.temp_processed (49 rows, 13 columns).",
+    "NOTE: PROC CORR data=work.temp_processed",
+    "NOTE: ODS plot written: corr_heatmap.spec.json"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
