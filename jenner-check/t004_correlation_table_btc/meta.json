@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_correlation_table_btc",
+  "source_file": "CODE-ANALYSIS-GRAPHS/correlation_tables.sas",
+  "source_blob_sha": "2df9e6710aecf1e5cefc28a106e53831c4994498",
+  "source_commit": "52b2937b6fa4fb74bf4b60f90fd39febccb4c721",
+  "tier": "real_data",
+  "notes": "Single-iteration adaptation of the %analyze_crypto_market macro in correlation_tables.sas. The upstream macro iterates over 15 coins; this bundle exercises the per-coin core (BTC) verbatim: read btc_ready.csv, build Lag_Fed/Lag_M2/Lag_Dxy via LAG1(...), then PROC CORR pearson nosimple with VAR Log_Price and WITH Lag_Fed Lag_M2 Lag_Dxy. Path rewritten from /home/u64447590/BTC/btc_ready.csv to ./input/btc_ready.csv."
+}

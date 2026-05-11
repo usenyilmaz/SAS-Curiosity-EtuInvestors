@@ -1,0 +1,8 @@
+         Pearson Correlation Analysis: BTC vs. Macroeconomic Parameters         
+
+   Pearson Correlation Coefficients, N = 49
+          Prob > |r| under H0: Rho=0
+           Log_Price
+--------  --------
+Log_Price         .
+              .

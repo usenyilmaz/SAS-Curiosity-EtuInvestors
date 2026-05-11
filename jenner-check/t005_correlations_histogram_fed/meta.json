@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_correlations_histogram_fed",
+  "source_file": "CODE-ANALYSIS-GRAPHS/Histograms.sas",
+  "source_blob_sha": "d7bba9490d0f602061f98a569bf3abb0feef579b",
+  "source_commit": "52b2937b6fa4fb74bf4b60f90fd39febccb4c721",
+  "tier": "real_data",
+  "notes": "Adaptation of the FED Funds half of Histograms.sas. Reads ALL_CORRELATIONS_RESULTS.csv, aggregates by Label via PROC SUMMARY CLASS, captures the FED mean via CALL SYMPUTX, then renders the per-cryptocurrency vbar with zero and mean reference lines. Edits: path rewritten to ./input/, PROC IMPORT takes a string literal instead of a fileref, BOM stripped from the input CSV, and fillattrs hex CX3498DB swapped for the named color steelblue."
+}

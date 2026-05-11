@@ -1,0 +1,8 @@
+{
+  "bundle": "t006_correlations_histogram_m2",
+  "source_file": "CODE-ANALYSIS-GRAPHS/Histograms.sas",
+  "source_blob_sha": "d7bba9490d0f602061f98a569bf3abb0feef579b",
+  "source_commit": "52b2937b6fa4fb74bf4b60f90fd39febccb4c721",
+  "tier": "real_data",
+  "notes": "Adaptation of the M2 Money Supply half of Histograms.sas. Same structure as the FED bundle but exercises the M2 WHERE filter and a different fillattrs color. Edits: path rewritten, PROC IMPORT takes a string literal, BOM stripped from the input CSV, fillattrs hex swapped for the named SAS color mediumseagreen."
+}
